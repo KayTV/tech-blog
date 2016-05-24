@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+header {
+  margin-top: 80px;
+  /*text-shadow: 2px 2px grey;*/
+}
+
 .navbar {
     margin-bottom: 0;
     background-color: #2d2d30;
@@ -42,8 +47,9 @@ body {
   max-width: 380px;
   padding: 15px 35px 45px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: grey;
   border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
 
   .form-signin-heading,
 	.checkbox {
